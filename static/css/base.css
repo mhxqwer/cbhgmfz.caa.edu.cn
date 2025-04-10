@@ -1,0 +1,108 @@
+html, body, div, span, object,li,ul,img iframe, h1, h2, h3, h4, h5, h6, p, pre, a, em, img, strong, sub, sup, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    font-size: 100%;
+    font-family:"Microsoft YaHei","华文细黑", \5B8B\4F53, arial, sans-serif;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+
+}
+button,a{
+    outline: none;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: white;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: white;
+}
+html {
+    height: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+input:focus{
+    outline: none;
+}
+.blWrap{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+   overflow: hidden;
+
+}
+
+ol, ul {
+    list-style: none;
+    margin-bottom: 0px;
+
+}
+em, i {
+    font-style: normal;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+section,article{
+    display: block;
+    float: left;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+img {border-width: 0px 0px 0px 0px}
+img:hover {
+    border:0px solid #f00;
+}
+a{
+    text-decoration:none;
+    color: rgb(165,165,165);
+}
+/*a:hover{*/
+    /*!*color: rgb(136,100,168) !important;*!*/
+    /*color:deeppink ;*/
+/*}*/
+.Highlight a:hover{
+    color:deeppink !important;
+}
+
+span,a::selection{
+
+}
+
+table tr td {
+    border-width: 1px;
+    border-color: #000;
+    border-style: solid;
+}
+
+
